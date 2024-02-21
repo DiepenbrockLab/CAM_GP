@@ -27,6 +27,7 @@ library(rlist)
 setwd("/home/mflapo/")
 
 ############### Using Alex Lipka's code for 10x CV, modified #################
+# Certain baseline functions of the GP script were also used in Owens et al. (2014), doi: 10.1534/genetics.114.169979.
 #                      Assign proper values to each input below
 # Set Y equal to single trait of interest and Geno equal to hapmap genotype file
 # This is automatically defined if using GLMNet.tenfoldCV() function
